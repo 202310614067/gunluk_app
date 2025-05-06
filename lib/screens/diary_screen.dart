@@ -219,7 +219,7 @@ class _DiaryScreenState extends State<DiaryScreen> {
                 diaryBox.put(key, DiaryEntry(
                   title: title,
                   content: content,
-                  date: now,
+                  date: entry.date, // tarihi korur
                   userId: userId,
                 ));
               }
